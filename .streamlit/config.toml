@@ -1,0 +1,16 @@
+[global]
+developmentMode = false
+disableWidgetStateTelemetry = true
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[server]
+headless = true
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"

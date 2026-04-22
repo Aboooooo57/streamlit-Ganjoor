@@ -38,39 +38,39 @@ st.markdown(f"""
     src: url('data:font/woff2;base64,{_bold}') format('woff2');
 }}
 
-html, body, [class*="css"], .stMarkdown, .stText, button, input, select, textarea {
+html, body, [class*="css"], .stMarkdown, .stText, button, input, select, textarea {{
     font-family: 'Vazirmatn', sans-serif !important;
-}
+}}
 
-.poem-card {
+.poem-card {{
     border-radius: 12px;
     padding: 1.8rem 2rem;
     margin: 1rem 0;
     line-height: 2.4;
     font-size: 1.1rem;
     border: 1px solid rgba(128,128,128,0.2);
-}
+}}
 
-.verse-line {
+.verse-line {{
     display: flex;
     justify-content: space-between;
     padding: 0.25rem 0;
     border-bottom: 1px solid rgba(128,128,128,0.1);
-}
-.verse-line:last-child { border-bottom: none; }
+}}
+.verse-line:last-child {{ border-bottom: none; }}
 
-.search-result {
+.search-result {{
     border-radius: 8px;
     padding: 0.9rem 1.2rem;
     margin: 0.4rem 0;
     border: 1px solid rgba(128,128,128,0.15);
-}
+}}
 
-.result-meta {
+.result-meta {{
     font-size: 0.82rem;
     opacity: 0.65;
     margin-bottom: 6px;
-}
+}}
 </style>
 """, unsafe_allow_html=True)
 
