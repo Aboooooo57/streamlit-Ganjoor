@@ -3,6 +3,7 @@ import sqlite3
 import pandas as pd
 import os
 import sys
+import base64
 import plotly.express as px
 
 # ── Page config ──────────────────────────────────────────────────────────────
@@ -13,10 +14,29 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── RTL + Font only (no custom colors) ───────────────────────────────────────
-st.markdown("""
+# ── Load local fonts as base64 ───────────────────────────────────────────────
+def _font_b64(filename):
+    base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+    path = os.path.join(base, "fonts", filename)
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+_regular = _font_b64("Vazirmatn-Regular.woff2")
+_bold    = _font_b64("Vazirmatn-Bold.woff2")
+
+# ── Font + layout CSS (no external requests) ─────────────────────────────────
+st.markdown(f"""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap');
+@font-face {{
+    font-family: 'Vazirmatn';
+    font-weight: 400;
+    src: url('data:font/woff2;base64,{_regular}') format('woff2');
+}}
+@font-face {{
+    font-family: 'Vazirmatn';
+    font-weight: 700;
+    src: url('data:font/woff2;base64,{_bold}') format('woff2');
+}}
 
 html, body, [class*="css"], .stMarkdown, .stText, button, input, select, textarea {
     font-family: 'Vazirmatn', sans-serif !important;

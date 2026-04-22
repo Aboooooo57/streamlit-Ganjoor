@@ -12,6 +12,7 @@ a = Analysis(
     datas=[
         ("ganjoor_app.py", "."),   # app script bundled alongside launcher
         ("ganjoor.db",    "."),    # SQLite database
+        ("fonts",         "fonts"), # local Vazirmatn fonts
         *st_datas,
         *px_datas,
     ],
