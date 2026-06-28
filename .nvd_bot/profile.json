@@ -12,8 +12,8 @@
       "pymysql": "unknown"
     }
   },
-  "last_commit_sha": "8b6c7661b223b9c1501f138b3786118b4f58e7e4",
-  "last_scanned_at": "2026-06-28T15:39:01.012001+00:00",
+  "last_commit_sha": "25ad1a5ce92c238560b4f5562b260f9732cb9ec0",
+  "last_scanned_at": "2026-06-28T15:54:12.798951+00:00",
   "active_fixes": [],
   "enabled": true,
   "auto_pr": false,
