@@ -1,0 +1,21 @@
+{
+  "id": "aboooooo57-streamlit-ganjoor-551000",
+  "url": "https://github.com/Aboooooo57/streamlit-Ganjoor",
+  "name": "Aboooooo57/streamlit-Ganjoor",
+  "language": "python",
+  "frameworks": [],
+  "packages": {
+    "import-scan": {
+      "streamlit": "unknown",
+      "plotly": "unknown",
+      "pandas": "unknown",
+      "pymysql": "unknown"
+    }
+  },
+  "last_commit_sha": null,
+  "last_scanned_at": "2026-06-28T14:15:32.751928+00:00",
+  "active_fixes": [],
+  "enabled": true,
+  "auto_pr": false,
+  "overrides": {}
+}
