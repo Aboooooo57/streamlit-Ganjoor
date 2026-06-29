@@ -7,13 +7,13 @@
   "packages": {
     "import-scan": {
       "streamlit": "unknown",
+      "pymysql": "unknown",
       "plotly": "unknown",
-      "pandas": "unknown",
-      "pymysql": "unknown"
+      "pandas": "unknown"
     }
   },
-  "last_commit_sha": "4644d62d809e0db0350abd2321e8d0d89be91063",
-  "last_scanned_at": "2026-06-29T12:40:20.622215+00:00",
+  "last_commit_sha": "f9d31dda5e3a149f5b717b55763febdf22c2dffc",
+  "last_scanned_at": "2026-06-29T13:00:18.397538+00:00",
   "active_fixes": [],
   "enabled": true,
   "auto_pr": false,
