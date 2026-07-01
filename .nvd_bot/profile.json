@@ -12,8 +12,8 @@
       "pandas": "unknown"
     }
   },
-  "last_commit_sha": "38d24fcdb50f80861c8a0c15d7dec6520e635bc1",
-  "last_scanned_at": "2026-07-01T02:13:43.596141+00:00",
+  "last_commit_sha": "e50700862c0b16c931b26d046600e2438341354f",
+  "last_scanned_at": "2026-07-01T02:28:52.169690+00:00",
   "active_fixes": [],
   "enabled": true,
   "auto_pr": false,
