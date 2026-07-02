@@ -6,14 +6,14 @@
   "frameworks": [],
   "packages": {
     "import-scan": {
-      "plotly": "unknown",
-      "pymysql": "unknown",
       "streamlit": "unknown",
-      "pandas": "unknown"
+      "pandas": "unknown",
+      "pymysql": "unknown",
+      "plotly": "unknown"
     }
   },
-  "last_commit_sha": "758169aea402749af998e7432121cbea4b793f5b",
-  "last_scanned_at": "2026-07-02T10:44:34.911338+00:00",
+  "last_commit_sha": "be106c3413de69572d05a43897c55556aedac4ca",
+  "last_scanned_at": "2026-07-02T11:04:06.674080+00:00",
   "enabled": true,
   "overrides": {}
 }
